@@ -1,0 +1,6 @@
+CREATE TABLE POST (
+         POST_ID INT NOT NULL AUTO_INCREMENT,
+         TITLE VARCHAR(100),
+         POST_DATE DATE,
+         PRIMARY KEY(POST_ID)
+       );
